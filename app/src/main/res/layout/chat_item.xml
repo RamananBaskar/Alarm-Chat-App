@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+
+    android:padding="6dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/chat_bg_l"
+        android:id="@+id/left_chat_view"
+        android:layout_marginEnd="80dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:paddingLeft="7dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:id="@+id/left_chat_text_view"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/left_chat_timestamp_text_view"
+            android:textSize="10sp"
+            android:layout_toRightOf="@id/left_chat_text_view"
+            android:layout_marginLeft="-40dp"
+            android:layout_alignBottom="@id/left_chat_text_view"
+            android:padding="7dp"
+            android:textColor="#3B3B3B" >
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/chat_bg"
+        android:id="@+id/right_chat_view"
+        android:layout_marginStart="80dp" >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:paddingLeft="7dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:id="@+id/right_chat_text_view"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/right_chat_timestamp_text_view"
+            android:textSize="10sp"
+            android:layout_toRightOf="@id/right_chat_text_view"
+            android:layout_marginLeft="-40dp"
+            android:layout_alignBottom="@id/right_chat_text_view"
+            android:padding="7dp"
+            android:textColor="#3B3B3B">
+        </TextView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
