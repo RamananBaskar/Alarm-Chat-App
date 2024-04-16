@@ -1,6 +1,8 @@
 # Alarm Chat Bot App
 
-Welcome to the Alarm Chat Bot app! This Android application developed in Android Studio using Java serves as a handy tool for setting alarms and receiving notifications via SMS. With an intuitive user interface, database integration, and advanced features like fingerprint authorization, this app aims to provide a seamless user experience.
+IMPORTANT: Find the code in master branch.
+
+Welcome to the Alarm Chat Bot app!. This Android application developed in Android Studio using Java serves as a handy tool for setting alarms and receiving notifications via SMS. With an intuitive user interface, database integration, and advanced features like fingerprint authorization, this app aims to provide a seamless user experience.
 
 ## Features:
 - **SMS Communication**: Receive alarm notifications via SMS.
